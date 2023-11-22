@@ -1,0 +1,102 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    font-family: 'BankGothic', sans-serif;
+    margin: auto;
+}
+
+@font-face {
+    font-family: 'BankGothic';
+    src: url('fonts/BankGothicMediumBT.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+label {
+    margin-bottom: 8px;
+    font-family: 'BankGothic', sans-serif;
+
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+    font-family: 'BankGothic', sans-serif;
+}
+
+button {
+    font-family: 'BankGothic', sans-serif;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.transaction-form {
+    max-width: 400px;
+    margin: auto;
+    font-family: 'BankGothic', sans-serif;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-form label {
+    display: block;
+    font-family: 'BankGothic', sans-serif;
+    margin-bottom: 8px;
+}
+
+.transaction-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    font-family: 'BankGothic', sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.transaction-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    font-family: 'BankGothic', sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.transaction-form button:hover {
+    background-color: #0056b3;
+}
+
+.prediction-result {
+    margin-top: 20px;
+    padding: 10px;
+    font-family: 'BankGothic', sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.prediction-result h2 {
+    color: #007bff;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.App {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'BankGothic', sans-serif;
+    font-size: 2em; /* Adjust the font size as needed */
+    margin-top: 50px; /* Adjust the margin for vertical centering */
+}
